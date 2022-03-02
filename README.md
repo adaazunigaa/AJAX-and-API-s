@@ -22,6 +22,7 @@
     *GET
     *POST
 -HTTP status codes
+    *codes that come back in a HTTP response that have a meaning 
 -Query Strings
 -HTTP headers 
 -Making XHRs
