@@ -4,10 +4,18 @@
     *JAVASCRIPT 
         AND 
     *XML
-        -making requests
+        -making requests to get data
 -API's
+    *Aplicaion
+    *Programming
+    *Interface
 -JSON
+    *JAVA
+    *SCRIPT
+    *OBJECT
+    *NOTATION
 -Hoppscotch (or postman)
+
 -HTTP verbs
 -HTTP status codes
 -Query Strings
