@@ -33,5 +33,8 @@
         -weird capitalization
         -Clunky syntax that is difficult to remember
 -Fetch API
+    *The "newer" way of making requests via JS
+    *Suports promises
+    *Not supported in Internet Explorer
 -Axios
 -Headers with Axios
