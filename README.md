@@ -15,8 +15,12 @@
     *OBJECT
     *NOTATION
 -Hoppscotch (or postman)
+    https://hoppscotch.io/
+    *Help test API's
 
 -HTTP verbs
+    *GET
+    *POST
 -HTTP status codes
 -Query Strings
 -HTTP headers 
