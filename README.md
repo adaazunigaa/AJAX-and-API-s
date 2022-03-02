@@ -26,7 +26,12 @@
 -Query Strings
 -HTTP headers 
     *Pairs of infomration that goes along with the requests
--Making XHRs
+-XHRs
+    *XMLHttpRequest 
+        -The original way of sending request via JS.
+        -Does not support promises (uses lots of call backs)
+        -weird capitalization
+        -Clunky syntax that is difficult to remember
 -Fetch API
 -Axios
 -Headers with Axios
