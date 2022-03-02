@@ -25,6 +25,7 @@
     *codes that come back in a HTTP response that have a meaning 
 -Query Strings
 -HTTP headers 
+    *Pairs of infomration that goes along with the requests
 -Making XHRs
 -Fetch API
 -Axios
