@@ -37,4 +37,6 @@
     *Suports promises
     *Not supported in Internet Explorer
 -Axios
+    *A library for making HTTP requests
+    *axios makes the requests and parses the JSON
 -Headers with Axios
