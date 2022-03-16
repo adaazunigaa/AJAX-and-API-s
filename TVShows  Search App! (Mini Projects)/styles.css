@@ -11,14 +11,23 @@ h1{
     border: dotted #0E49B5 5px ;
 }
 
-#userInput{
+#userInput, .buttons{
     width: auto;
     height: 3rem;
     font-size: 1.5rem;
+    border: solid #0E49B5 2px ;
+}
+
+.buttons{
+    background-color: #0e48b546;
+}
+
+.buttons:hover{
+    background-color: #0e48b56c;
 }
 
 @media screen and (max-width: 600px) {
-    #userInput{
+    #userInput, .buttons{
         width: auto;
         height: 1.5rem;
         font-size: .75rem;
