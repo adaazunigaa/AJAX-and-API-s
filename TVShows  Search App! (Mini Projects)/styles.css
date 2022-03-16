@@ -1,0 +1,12 @@
+body{
+    background-color: #b999be ;
+    font-family: 'Comfortaa', cursive;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.dottedBorder{
+    border: dotted;
+}

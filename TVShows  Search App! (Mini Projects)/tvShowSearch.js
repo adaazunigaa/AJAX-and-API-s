@@ -17,7 +17,18 @@ function makeImages(shows) {
         if (eachShow.show.image) {
             const img = document.createElement("IMG");
             img.src = eachShow.show.image.medium;
-            document.body.append(img);
+            img.className = "m-2 dottedBorder"
+            document.querySelector(".displayImg").appendChild(img);
         }
     }
 }
+
+
+
+
+
+const resetButton = document.querySelector("#resetBtn");
+resetButton.addEventListener("click", function () {
+    document.querySelector("#imageContainer").innerHTML = "";
+});
+
