@@ -17,7 +17,7 @@ function makeImages(shows) {
         if (eachShow.show.image) {
             const img = document.createElement("IMG");
             img.src = eachShow.show.image.medium;
-            img.className = "m-2 dottedBorder"
+            img.className = "m-2 dottedBorder images"
             document.querySelector(".displayImg").appendChild(img);
         }
     }
@@ -28,7 +28,11 @@ function makeImages(shows) {
 
 
 const resetButton = document.querySelector("#resetBtn");
-resetButton.addEventListener("click", function () {
-    document.querySelector("#imageContainer").innerHTML = "";
-});
+resetButton.addEventListener("click", clearImage);
 
+const userInput = document.querySelector("#userInput");
+userInput.addEventListener("click", clearImage);
+
+function clearImage() {
+    document.querySelector("#imageContainer").innerHTML = "";
+}

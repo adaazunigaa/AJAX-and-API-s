@@ -1,12 +1,30 @@
 body{
-    background-color: #b999be ;
+    background-color: #ecfcff6e ;
     font-family: 'Comfortaa', cursive;
 }
 
 h1{
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .dottedBorder{
-    border: dotted;
+    border: dotted #0E49B5 5px ;
 }
+
+#userInput{
+    width: auto;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+    #userInput{
+        width: auto;
+        height: 1.5rem;
+        font-size: .75rem;
+    }
+    .images{
+        width: 42%;
+        height: 42%;
+    }
+  }
