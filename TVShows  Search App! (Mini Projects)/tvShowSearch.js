@@ -17,20 +17,43 @@ function getData(showsJSON) {
 
     for (let eachShow of showsJSON) {
         if (eachShow.show.image) {
+            
+            
+            const card = document.createElement("div");
             const img = document.createElement("IMG");
             //const name = document.createElement("figcaption");
 
+            const cardBody = document.createElement("div");
+
+            const cardTitle = document.createElement("h5");
+            const cardText = document.createElement("p");
             
             
+            
+            const id = eachShow.show.id;
             img.src = eachShow.show.image.medium;
-            //name.innerHTML = eachShow.show.name;
+            cardTitle.innerHTML = eachShow.show.name;
+            cardText.innerHTML = eachShow.show.summary;
 
 
-            img.className = "m-2 dottedBorder images"
-            //name.className = "d-inline"
+            card.className = `card card${id} row `;
             
+            img.className = "dottedBorder card-img-top col-md-4 w-25 h-50 ";
+            cardBody.className = `card-body cardBody${id} col-md-8 ` ;
+            cardTitle.className = "card-title";
+            cardText.className = "card-text";
+
+            
+
+            //name.className = "d-inline"
+        
+
             //document.querySelector(".displayImg").append(name);
-            document.querySelector(".displayImg").append(img);
+            document.querySelector("#imageContainer").append(card);
+            document.querySelector(`.card${id}`).append(img);
+            document.querySelector(`.card${id}`).append(cardBody)
+            document.querySelector(`.cardBody${id}`).append(cardTitle)
+            document.querySelector(`.cardBody${id}`).append(cardText)
            
 
         }
